@@ -1,7 +1,7 @@
 def binary_search(a, q):
-	low = 0
 	if q not in a:
 		return "Element not in list."
+	low = 0
 	high = len(a)
 	while low < high:
 		mid = (low + high) // 2
