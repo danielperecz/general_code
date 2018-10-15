@@ -1,11 +1,11 @@
-def binary_search(a, q):
-	if q not in a:
+def binary_search(lst, q):
+	if q not in lst:
 		return "Element not in list."
 	low = 0
-	high = len(a)
+	high = len(lst)
 	while low < high:
 		mid = (low + high) // 2
-		if a[mid] < q:
+		if lst[mid] < q:
 			low = mid + 1
 		else:
 			high = mid
