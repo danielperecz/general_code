@@ -1,1 +1,1 @@
-general_code
+Python 3
