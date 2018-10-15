@@ -23,3 +23,19 @@ def manhattan_distance(start, goal):
 		i += 1
     
 	return sum_of_distances
+	
+"""
+xy_coordinates dictionary explained: as you can see tile 0 is at coordinates (1,3), tile 1 is at (2,3), etc.
+
+	  y-axis  +
+		  |
+  		3 +---+---+---+
+		  | 0 | 1 | 2 |
+		2 +---+---+---+
+		  | 3 | 4 | 5 |
+		1 +---+---+---+
+		  | 6 | 7 | 8 |
+		0 +---+---+---+---+ x-axis
+		  0   1   2   3
+"""
+	
