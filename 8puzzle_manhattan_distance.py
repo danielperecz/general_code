@@ -1,5 +1,5 @@
 def manhattan_distance(start, goal):
-	"""start and goal are the positions, in the format: start = '1 3824756', goal = '1238 4756'"""
+	# start and goal are the positions, in the format: start = "1 3824756", goal = "1238 4756"
 	xy_coordinates = {
 		0 : (1,3),
 		1 : (2,3),
