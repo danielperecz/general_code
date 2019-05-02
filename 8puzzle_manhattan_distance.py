@@ -27,15 +27,15 @@ def manhattan_distance(start, goal):
 """
 xy_coordinates dictionary explained: as you can see tile 0 is at coordinates (1,3), tile 1 is at (2,3), etc.
 
-y-axis  +
+y-axis   +
 	 |
-      3 +---+---+---+
+      3  +---+---+---+
 	 | 0 | 1 | 2 |
-      2 +---+---+---+
+      2  +---+---+---+
 	 | 3 | 4 | 5 |
-      1 +---+---+---+
+      1  +---+---+---+
 	 | 6 | 7 | 8 |
-      0 +---+---+---+---+ x-axis
+      0  +---+---+---+---+ x-axis
 	 0   1   2   3
 """
 	
